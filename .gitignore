@@ -1,0 +1,27 @@
+# Ignore all Debug folders anywhere in the project
+**/Debug*/
+
+# Ignore any build folders, binaries, and log files
+**/Build*/
+*.dll
+*.exe
+*.pak
+*.so
+*.dylib
+*.o
+*.a
+*.log
+
+# Ignore Xojo-specific files
+*.xojo_uistate
+*.xojo_codecache
+*.dat
+*.bak
+
+# Ignore OS-specific junk files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE-specific or temporary files
+.idea/
+.vscode/
